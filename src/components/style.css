@@ -8,9 +8,11 @@
   align-items: center;
   justify-content: center; 
   width: 800px;
-  height: 400px;
+  height: 500px;
+  
 }
 .fraseDataContainer{
+    margin: 20px;
     display:flex;
     justify-content:center;
 }
