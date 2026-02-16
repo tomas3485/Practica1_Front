@@ -13,32 +13,56 @@
   background-image: url("background.png");
   background-repeat: repeat-x; 
 }
+.cosasTitulo{
+  display:flex;
+  flex-direction:flex-start;
+  width: 1200px;
+  gap:30px
+
+}
 .cosasEnColumna{
   display:flex;
   flex-direction:column;
 }
 .contenidos{
   display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
+  justify-content:space-evenly ;
+  align-items: center;
+  justify-content: center; 
+  width: 1400px;
+  gap:20px;
+}
+.Pichurra{
+  width:50px;
+  height: 50px;
+  color:red;
 }
 .cosasCoche{
   display:flex;
   flex-direction:column;
   background:grey;
+  align-items:center;
 }
 .flecha{
   transform: rotate(90deg);
+  width: 100px;
 }
-
+.anuncio1{
+  width: 150px;
+}
+.anuncio2{
+  width:150px;
+}
 .elBoton{
   display:flex;
   flex-direction:column;
   align-items:center;
 }
-.fotoFamiliar{
+.FotoFamiliar{
   display:flex;
   flex-direction:column;
+  align-items:center;
+  justify-content:center;
 }
 .unError{
   display:flex;

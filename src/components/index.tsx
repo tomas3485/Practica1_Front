@@ -19,10 +19,10 @@ export const Frase = ()=>{
    const handleClick = () => {
     if(!start){
         setStart(true);
-        setUpdate(prev => !prev); // 👈 dispara primer fetch
+        setUpdate(!update);
         return;
     }
-    setUpdate(prev => !prev);
+    setUpdate(!update);
 }
 
     return(
