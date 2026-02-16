@@ -1,7 +1,7 @@
 .fraseContainer{
     font-size: 20px;           
   font-weight: bold;
-  background:blue;
+  background:#483FB5;
   color:black;
   display:flex;
   flex-direction:column;

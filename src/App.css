@@ -1,14 +1,17 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
+
 .PaginaPrincipal{
   display:flex;
   align-items:center;
+  justify-content:space-evenly;
   flex-direction:column;
+  background:#06041A;
   background-image: url("background.png");
+  background-repeat: repeat-x; 
 }
 .cosasEnColumna{
   display:flex;
@@ -27,19 +30,7 @@
 .flecha{
   transform: rotate(90deg);
 }
-.button{     
-  font-size: 20px;           
-  font-weight: bold;
-  background:blue;
-  color:black;
-  display:flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center; 
-  width: 700px;
-  height: 600px;
 
-}
 .elBoton{
   display:flex;
   flex-direction:column;
