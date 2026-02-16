@@ -10,6 +10,7 @@ const App = ()=> {
     <div className="PaginaPrincipal">     
       <h1>{<img src={"titulo.png"}></img>}</h1>
       <div className = "cosasEnColumna">
+        <div>{<img src = {"barra negro_amarillo.png"}></img>}</div>
         <div className = "contenidos">
           <div className="cosasCoche">
             <p>{<img src= {"anuncio1.png"} className="anuncio1"></img>}</p>          

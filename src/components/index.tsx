@@ -31,7 +31,6 @@ export const Frase = ()=>{
                 <p>
                     {!start ? "Click here" : frasecita ?? "Loading..."}
                 </p>
-                <h1>to learn the lesson</h1>
             </div>
         </div>
     )

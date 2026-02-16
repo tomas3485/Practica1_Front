@@ -15,4 +15,8 @@
     margin: 20px;
     display:flex;
     justify-content:center;
+    color:white;
+}
+.fraseRandom{
+  color:white;
 }
