@@ -5,18 +5,10 @@ import {Frase} from './components/index'
 import type {frase} from './types/frase'
 
 const App = ()=> {
-  const [pichurra,setPichurra]=useState<boolean>(false);
- 
-  useEffect(()=>{
-    if(pichurra===true)
-      <img src={"pichurra.jpg"}/>
-  },[pichurra])
+  
   return (
-    <div className="PaginaPrincipal">
-      <div className="cosasTitulo">
-      <button className="Pichurra" onClick={()=>{setPichurra(true)}}>Private</button>
+    <div className="PaginaPrincipal">     
       <h1>{<img src={"titulo.png"}></img>}</h1>
-      </div>
       <div className = "cosasEnColumna">
         <div className = "contenidos">
           <div className="cosasCoche">
